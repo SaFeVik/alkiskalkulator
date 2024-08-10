@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Solway', serif;
+}
+
+body{
+    background-color: rgb(249, 201, 239);
+    color: rgb(54, 54, 54);
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+h1{
+    color: rgb(226, 43, 165);
+}
+
+h3{
+    color: rgb(33, 33, 145);
+}
+
+h2{
+    color: rgb(226, 43, 165);
+}
+.inputfelt{
+    display: flex;
+    gap: 30px;
+
+}
+
+input{
+    width: 60px;
+    height: 30px;
+    background-color: rgb(234, 211, 247);
+    text-align: center;
+}
+.inputfelt > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.inputfelt p{
+    font-weight: bold;
+}
+
+#pil{
+    width: 50px;
+    transition: 0.3s;
+}
+#pil:hover{
+    width: 60px;
+    cursor: pointer;
+}
+
+#drikkevarer{
+    width: 350px;
+}
